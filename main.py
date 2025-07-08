@@ -1,5 +1,5 @@
-from supabase import create_client
 from fastapi import FastAPI
+from supabase import create_client
 
 database_url="https://zxcinfaprezgvhgvnwyh.supabase.co"
 database_api="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp4Y2luZmFwcmV6Z3ZoZ3Zud3loIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAxOTEyNzIsImV4cCI6MjA2NTc2NzI3Mn0.iEBk5TxKoIh7cPdJOb_cNyDCFyOcYwG9qUmDdFqRa2E"
